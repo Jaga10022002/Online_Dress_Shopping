@@ -1,0 +1,27 @@
+<div class="merchant-auth">
+  <div *ngIf="!showLogin" class="signup">
+    <h1>Merchant Signup</h1>
+    <form #merchantSignup="ngForm" (ngSubmit)="signup(merchantSignup.value)" class="form">
+      <input class="input-form" type="text" ngModel name="name" placeholder="Enter name">
+      <input class="input-form" type="text" ngModel name="email" placeholder="Enter email">
+      <input class="input-form" type="password" ngModel name="password" placeholder="Enter password">
+      <button class="input-btn">Signup</button>
+      <a class="toggle" (click)="openLogin()" >Already have an account click to Login</a>
+
+    </form>
+  </div>
+  <!-- login form -->
+
+
+  <div *ngIf="showLogin" class="signup">
+    <h1>Merchant Login</h1>
+   <p class="error"> {{authError}}</p>
+    <form #merchantLogin="ngForm" (ngSubmit)="login(merchantLogin.value)" class="form">
+      <input class="input-form" type="text" ngModel name="email" placeholder="Enter email">
+      <input class="input-form" type="password" ngModel name="password" placeholder="Enter password">
+      <button class="input-btn">Login</button>
+      <a class="toggle" (click)="openSignup()" >Don't have an account click to Signup</a>
+
+    </form>
+  </div>
+</div>

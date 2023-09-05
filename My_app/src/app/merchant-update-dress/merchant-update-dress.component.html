@@ -1,0 +1,16 @@
+<div class="add-dresses">
+  <h1 class="dress-add">Update Dresses</h1>
+  <p class="add">{{dressMessage}}</p>
+
+  <form #addDresses="ngForm" class="form" (ngSubmit)="submit(addDresses.value)">
+    <input class="input-form" type="text" ngModel="{{dressData?.name}}"  name="Dress name" placeholder="Enter Dress name">
+    <input class="input-form" type="text"  ngModel="{{dressData?.price}}" name="Price" placeholder="Enter Dress Price">
+    <input class="input-form" type="text"  ngModel="{{dressData?.color}}" name="color" placeholder="Enter Dress color">
+    <input class="input-form" type="text"  ngModel="{{dressData?.category}}" name="category" placeholder="Enter Dress category">
+    <textarea  class="input-form" type="text"  ngModel="{{dressData?.description}}" name="Description" placeholder="Enter product Description"></textarea>
+    <input class="input-form" type="text"  ngModel="{{dressData?.image}}" name="Image" placeholder="Enter Dress image url">
+
+    <button class="input-btn" >Update Dresses</button>
+
+  </form>
+  </div>

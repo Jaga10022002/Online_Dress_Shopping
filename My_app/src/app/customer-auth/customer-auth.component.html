@@ -1,0 +1,24 @@
+<div class="customer-auth">
+ <div *ngIf="!showLogin" class="customer-signup">
+  <h1>Customer Signup</h1>
+  <form  #customerSignup="ngForm" (ngSubmit)="signup(customerSignup.value)" class="form" >
+    <input class="input-form" type="text" ngModel name="name" placeholder="Enter name">
+    <input class="input-form" type="text" ngModel name="email" placeholder="Enter email">
+    <input class="input-form" type="password" ngModel name="password" placeholder="Enter password">
+    <button class="input-btn">Signup</button>
+  <a class="toggle" (click)="openLogin()" >Already have an account click to Login</a>
+  </form>
+ </div>
+ <div *ngIf="showLogin" class="customer-login">
+  <h1>Customer Login</h1>
+  <p class="error">{{authError}}</p>
+  <form  #customerLogin="ngForm" (ngSubmit)="login(customerLogin.value)" class="form" >
+    <input class="input-form" type="text" ngModel name="email" placeholder="Enter email" #email="ngModel" required email>
+    <p class="input-invalid"><span *ngIf="email.invalid && email.touched ">Please enter  Email</span></p>
+    <input class="input-form" type="password" ngModel name="password" placeholder="Enter password" minlength="4" maxlength="22" #password="ngModel" required>
+    <p class="input-invalid"><span *ngIf="password.invalid && password.touched ">Please enter Password</span></p>
+    <button class="input-btn" [disabled]="customerLogin.invalid">Login</button>
+   <a class="toggle" (click)="openSignup()" >Don't have an account click to Login</a>
+  </form>
+ </div>
+</div>

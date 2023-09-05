@@ -1,0 +1,25 @@
+.checkout h1{
+  text-align:center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.checkout h3{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 90px;
+
+  }
+

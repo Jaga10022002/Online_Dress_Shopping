@@ -1,0 +1,14 @@
+<div class="add-dress">
+  <h1>Add New Dress</h1>
+  <p class="add">{{adddressMessage}}</p>
+  <form #adddress="ngForm" (ngSubmit)="submit(adddress.value)" class="form">
+    <input type="text" class="input-form" placeholder="Enter Brand Name" name="name" ngModel>
+    <input type="text" class="input-form" placeholder="Enter Dress Price" name="price" ngModel>
+    <input type="text" class="input-form" placeholder="Enter Dress Color" name="color" ngModel>
+    <input type="text" class="input-form" placeholder="Enter Dress Category" name="category" ngModel>
+    <textarea type="text" class="input-form" placeholder="Enter Dress Description" name="description"
+      ngModel></textarea>
+    <input type="text" class="input-form" placeholder="Enter Dress Image URL" name="image" ngModel>
+    <button class="input-btn">Add Dress</button>
+  </form>
+</div>

@@ -1,0 +1,312 @@
+{
+  "merchant": [
+    {
+      "name": "Jaga",
+      "email": "jaga@gmail.com",
+      "password": "Jaga@123",
+      "id": 1
+    },
+    {
+      "name": "Sathish",
+      "email": "sathisha@gmail.com",
+      "password": "Sathi@123",
+      "id": 2
+    },
+    {
+      "name": "Sunil",
+      "email": "sunil@gmail.com",
+      "password": "sunil@123",
+      "id": 3
+    },
+    {
+      "name": "Anil",
+      "email": "anil@gmail.com",
+      "password": "anil@123",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 16
+    }
+  ],
+  "dresses": [
+    {
+      "name": "Addidas",
+      "price": "2300",
+      "color": "Yellow",
+      "category": "Womens",
+      "description": "IT's Look Pretty when you wear",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8WWVsbG93JTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 2
+    },
+    {
+      "name": "Peter England",
+      "price": "2500",
+      "color": "Black",
+      "category": "Mens",
+      "description": "IT's look hot when you wear",
+      "image": "https://images.unsplash.com/photo-1601537154601-67d78b349a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGRyZXNzJTIwbWVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "id": 3
+    },
+    {
+      "name": "Nike",
+      "price": "999",
+      "color": "Sandal",
+      "category": "Men",
+      "description": "It's look good",
+      "image": "https://images.unsplash.com/photo-1617524553860-898da96265cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1lbiUyMGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    },
+    {
+      "name": "Allen Solly",
+      "price": "1999",
+      "color": "Black",
+      "category": "Mens",
+      "description": "It's a Geniune cotton Coat",
+      "image": "https://images.unsplash.com/photo-1589386417686-0d34b5903d23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fE1lbiUyMGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "id": 5
+    },
+    {
+      "name": "Bubba",
+      "price": "899",
+      "color": "Yellow",
+      "category": "Womens",
+      "description": "It's look Good",
+      "image": "https://images.unsplash.com/photo-1605763240000-7e93b172d754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 6
+    },
+    {
+      "name": "Bubba",
+      "price": "599",
+      "color": "Rose",
+      "category": "Kids",
+      "description": "it's wear only kids",
+      "image": "https://media.istockphoto.com/id/1253245251/photo/five-years-old-little-girl-running-and-jumping-on-the-beach-in-a-sunny-cloudless-day.webp?b=1&s=170667a&w=0&k=20&c=0hiZ_rGPEB0vzOr-_EhzIfK2Bd8Qxs3mwtjqppOCMdU=",
+      "id": 7
+    },
+    {
+      "name": "Balman Paris",
+      "price": "999",
+      "color": "White",
+      "category": "Kids",
+      "description": "A dress is a garment traditionally worn by women or girls consisting of a skirt with an attached bodice.",
+      "image": "https://media.istockphoto.com/id/1277689639/photo/girl-having-fun-in-the-park-with-open-arms.webp?b=1&s=170667a&w=0&k=20&c=_ZPn00y06P2e3_8SDIUe1AHNd0A0O1VVMwInaVzEY-8=",
+      "id": 8
+    },
+    {
+      "name": "Addida",
+      "price": "2999",
+      "color": "Red",
+      "category": "Womens",
+      "description": "A simple classic dress usually of a solid color and adaptable to many occasions by a change of accessories",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 9
+    }
+  ],
+  "customers": [
+    {
+      "name": "Jaga",
+      "email": "jaga2@gmail.com",
+      "password": "Jaga@123",
+      "id": 1
+    },
+    {
+      "name": "kjnk",
+      "email": "kdflkmf",
+      "password": "klfmdkm",
+      "id": 2
+    },
+    {
+      "name": "nsldb",
+      "email": "kmnk",
+      "password": "klfbkmbfmm",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Sathish",
+      "email": "sathi@gmail.com",
+      "password": "sathi@123",
+      "id": 5
+    },
+    {
+      "name": "Sunil",
+      "email": "sunil@gmail.com",
+      "password": "sunil@123",
+      "id": 6
+    },
+    {
+      "name": "Neeha",
+      "email": "kfv",
+      "password": "nsdvnvd",
+      "id": 7
+    },
+    {
+      "name": "Nani",
+      "email": "skldnc",
+      "password": "klmsflkbmf",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "Peter England",
+      "price": "2500",
+      "color": "Black",
+      "category": "Mens",
+      "description": "IT's look hot when you wear",
+      "image": "https://images.unsplash.com/photo-1601537154601-67d78b349a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGRyZXNzJTIwbWVufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "Quantity": 1,
+      "customerId": 5,
+      "dressId": 3,
+      "id": 1
+    },
+    {
+      "name": "Nike",
+      "price": "999",
+      "color": "Sandal",
+      "category": "Men",
+      "description": "It's look good",
+      "image": "https://images.unsplash.com/photo-1617524553860-898da96265cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1lbiUyMGRyZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "Quantity": 1,
+      "dressId": 4,
+      "customerId": null,
+      "id": 2
+    },
+    {
+      "name": "Bubba",
+      "price": "899",
+      "color": "Yellow",
+      "category": "Womens",
+      "description": "It's look Good",
+      "image": "https://images.unsplash.com/photo-1605763240000-7e93b172d754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "Quantity": 1,
+      "dressId": 6,
+      "customerId": null,
+      "id": 3
+    },
+    {
+      "name": "Bubba",
+      "price": "899",
+      "color": "Yellow",
+      "category": "Womens",
+      "description": "It's look Good",
+      "image": "https://images.unsplash.com/photo-1605763240000-7e93b172d754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "Quantity": 1,
+      "dressId": 6,
+      "customerId": null,
+      "id": 4
+    },
+    {
+      "name": "Addidas",
+      "price": "2300",
+      "color": "Yellow",
+      "category": "Womens",
+      "description": "IT's Look Pretty when you wear",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8WWVsbG93JTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "Quantity": 1,
+      "customerId": 1,
+      "dressId": 2,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "email": "",
+      "textarea": "",
+      "number": "",
+      "totalamount": 7798.000000000001,
+      "customerId": 1,
+      "id": 2
+    },
+    {
+      "email": "jbhbsac",
+      "textarea": "dsbsbf",
+      "number": 999999999,
+      "totalamount": 7798.000000000001,
+      "customerId": 1,
+      "id": 3
+    },
+    {
+      "email": " dklm",
+      "textarea": "ksmdckmd",
+      "number": 99999999999999,
+      "totalamount": 2400,
+      "customerId": 1,
+      "id": 4
+    }
+  ]
+}

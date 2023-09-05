@@ -1,0 +1,42 @@
+.slider{
+  object-fit: contain;
+  width: 100%;
+  height: 600px;
+}
+.dress-list-wrapper{
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+.dress-item{
+  margin-bottom: 40px;
+  margin-right: 26px;
+  border: 1px solid #ccc;
+
+}
+
+.dress-item img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.dress-item .dress-details{
+  border-top: 1px solid #e1cccc;
+  border-bottom: 1px solid  #e1cccc;
+  padding: 16px;
+}
+
+.dress-item .dress-name{
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 620;
+}
+.dress-item .dress-details h6{
+  text-align: center;
+}
+.dress-footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
